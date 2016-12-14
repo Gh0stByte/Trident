@@ -10,6 +10,7 @@
 		2880F31B1E014AC80045C840 /* target.m in Sources */ = {isa = PBXBuildFile; fileRef = 2880F3191E014AC80045C840 /* target.m */; };
 		2880F31E1E015A1A0045C840 /* target_iphone_5_2_ios_9_2_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 2880F31C1E015A1A0045C840 /* target_iphone_5_2_ios_9_2_1.c */; };
 		2880F3211E015A540045C840 /* target_ipad_3_1_ios_9_3_4.c in Sources */ = {isa = PBXBuildFile; fileRef = 2880F31F1E015A540045C840 /* target_ipad_3_1_ios_9_3_4.c */; };
+		2E81D65A1E01E29600208A59 /* target_iphone_5_2_ios_9_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E81D6581E01E29600208A59 /* target_iphone_5_2_ios_9_2.c */; };
 		43CDFA481DCFA16600046EB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CDFA471DCFA16600046EB0 /* main.m */; };
 		43CDFA4B1DCFA16600046EB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CDFA4A1DCFA16600046EB0 /* AppDelegate.m */; };
 		43CDFA4E1DCFA16600046EB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CDFA4D1DCFA16600046EB0 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 		2880F31F1E015A540045C840 /* target_ipad_3_1_ios_9_3_4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = target_ipad_3_1_ios_9_3_4.c; sourceTree = "<group>"; };
 		2880F3201E015A540045C840 /* target_ipad_3_1_ios_9_3_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = target_ipad_3_1_ios_9_3_4.h; sourceTree = "<group>"; };
 		2880F3231E015D030045C840 /* target_abstraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = target_abstraction.h; sourceTree = "<group>"; };
+		2E81D6581E01E29600208A59 /* target_iphone_5_2_ios_9_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = target_iphone_5_2_ios_9_2.c; sourceTree = "<group>"; };
+		2E81D6591E01E29600208A59 /* target_iphone_5_2_ios_9_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = target_iphone_5_2_ios_9_2.h; sourceTree = "<group>"; };
 		43CDFA431DCFA16600046EB0 /* Trident.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trident.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CDFA471DCFA16600046EB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43CDFA491DCFA16600046EB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,12 +91,30 @@
 				2880F3231E015D030045C840 /* target_abstraction.h */,
 				2880F31A1E014AC80045C840 /* target.h */,
 				2880F3191E014AC80045C840 /* target.m */,
+				2E81D6541E01E24600208A59 /* 9.2 */,
 				9C31EE891E019B4E00FEA406 /* 9.2.1 */,
 				9C31EE881E019B4900FEA406 /* 9.3.1 */,
 				9C31EE8A1E019B5300FEA406 /* 9.3.2 */,
 				9C31EE8E1E019B7100FEA406 /* 9.3.4 */,
 			);
 			name = targets;
+			sourceTree = "<group>";
+		};
+		2E81D6541E01E24600208A59 /* 9.2 */ = {
+			isa = PBXGroup;
+			children = (
+				2E81D6551E01E25000208A59 /* iPhone5,2 */,
+			);
+			name = 9.2;
+			sourceTree = "<group>";
+		};
+		2E81D6551E01E25000208A59 /* iPhone5,2 */ = {
+			isa = PBXGroup;
+			children = (
+				2E81D6581E01E29600208A59 /* target_iphone_5_2_ios_9_2.c */,
+				2E81D6591E01E29600208A59 /* target_iphone_5_2_ios_9_2.h */,
+			);
+			name = "iPhone5,2";
 			sourceTree = "<group>";
 		};
 		43CDFA3A1DCFA16600046EB0 = {
@@ -359,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E81D65A1E01E29600208A59 /* target_iphone_5_2_ios_9_2.c in Sources */,
 				9C31EE751E0198DC00FEA406 /* target_ipad_2_1_ios_9_3_2.c in Sources */,
 				43CDFA4E1DCFA16600046EB0 /* ViewController.m in Sources */,
 				9C31EE931E019FB600FEA406 /* target_iphone_5_2_ios_9_3_2.c in Sources */,
